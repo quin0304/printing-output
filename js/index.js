@@ -16,6 +16,6 @@ let last_name = 'Quintero';
 let email = 'quin0304@algonquinlive.com';
 
 output += '-------- Task 2 ----------\n';
-output += 'My name is ' + (first_name) + ' ' + (last_name) + '. You can contact me at ' + (email) + '.' ;
+output += `My name is ${first_name} ${last_name}. You can contact me at ${email}.`;
 
 alert (output);
